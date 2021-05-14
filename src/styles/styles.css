@@ -82,6 +82,8 @@ src: local('Raanan Bold'), url('Raanan-Bold.woff') format('woff');
 
 .background {
   background-color: #272D35;
+  width: 100vw;
+  height: 110vh;
 }
 
 .yellow-theme {
@@ -160,3 +162,79 @@ src: local('Raanan Bold'), url('Raanan-Bold.woff') format('woff');
     height: 5px;
     background-color: #E4BA41;
 }
+
+.work-history-line {
+  position: absolute;
+  background-color: white;
+  width:2px;
+}
+
+.work-history-bullet {
+  transform: translateX(-8px);
+  background-color: white;
+  width:16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.thumbnail-image {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 50px
+}
+
+.experience-text {
+  font-family: "stix-two-math",serif; 
+  color: white;
+  margin-left: 50px;
+}
+
+li {
+  list-style-type: none;
+  position: relative;    /* It's needed for setting position to absolute in the next rule. */
+  margin-bottom: 0px;
+  margin-left: 1.2em;
+}
+
+.experience-description {
+  border-style: solid;
+  border-color:  #E4BA41;
+  border-width: 1px;
+  padding: 3px;
+  margin-left: 14rem;
+  width: 60rem;
+  color: white;
+  font-family: "stix-two-math",serif; 
+  /* max-height: 0px; */
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+
+.experience-description.hover{
+  /* max-height: 100px; */
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+
+li::before {
+  content: '•';
+  position: absolute;
+  left: -0.8em;
+  top: -3px;          /* Adjust this value so that it appears where you want. */
+  font-size: 1.1em;      /* Adjust this value so that it appears what size you want. */
+}
+
+.animate {
+  transition: height 0.5s linear;
+  height: 175px;
+  animation-direction: alternate;
+}
+
+.animate.grow {
+  height: 250px;
+  transition: height 0.5s linear;
+  animation-direction: alternate;
+}
+

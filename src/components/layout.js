@@ -17,7 +17,7 @@ import '../styles/styles.css'
 const Layout = ({ children }) => {
 
   return (
-    <div className="background w-screen h-screen">
+    <div className="background">
       <Navbar/>
       <div>
         <main>{children}</main>
