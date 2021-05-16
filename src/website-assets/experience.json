@@ -1,0 +1,67 @@
+{
+    "safexai": {
+        "company": "safeXai",
+        "timeperiod": "April 2021 - Present",
+        "position": "Software Engineering Intern",
+        "location": "Sandy, Utah",
+        "description": [
+            "Own project to build iOS and Android mobile app from scratch that provides a dynamic way to view and interact with company-wide updates",
+            "Automated the creation of a daily pdf saving 6 hours of manyal work weekly (the pdf displays company-wide updates with embedded videos, images, gifs, and confluence posts) "
+        ],
+        "image": "safexai"
+    },
+    "turing-pm": {
+        "company": "Turing",
+        "timeperiod": "September 2020 - April 2021",
+        "position": "Associate Product Manager",
+        "location": "Palo Alto, CA",
+        "description": [
+            "Lead design + implementation for products affecting 10K+ monthly new users in Turing’s developer vetting engine",
+            "Increased conversion speed through vetting funnel by 10x and conversion rate by 20+%"
+        ],
+        "image": "turing-logo"
+    },
+    "turing-chief-of-staff": {
+        "company": "Turing",
+        "timeperiod": "March 2020 - April 2021",
+        "position": "Chief of Staff to CEO",
+        "location": "Palo Alto, CA",
+        "description": [
+            "Directed creation of cloud software to replace paper records and save 144 hours of work by teachers weekly",
+            "Oversaw teacher training and program implementation for English learning program with 17 centers in Seoul"
+        ],
+        "image": "turing-logo"
+    },
+    "stanford-ta": {
+        "company": "Stanford Computer Science Deptartment",
+        "timeperiod": "September 2020 - April 2021",
+        "position": "Computer Science TA and Section Leader for CS 106 Series",
+        "location": "Palo Alto, CA",
+        "description": [
+            "Teach weekly sections of 12 Stanford undergrad/graduate students on CS data structures and algorithms (taught in Python and C++)"
+        ],
+        "image": "stanford-logo"
+    }, 
+    "stanford-curis": {
+        "company": "Stanford Computer Science Deptartment",
+        "timeperiod": "June 2020 - August 2020",
+        "position": "Research Intern/Software Developer",
+        "location": "Palo Alto, CA",
+        "description": [
+            "Led dev team to fully implement “AI Spy”, an android app with an AI persona capable of playing “I-spy” with user on any image input",
+            "Iterated with design team + user-research team to develop user-friendly UI that is touchless and conversation-based"
+        ],
+        "image": "stanford-logo"
+    }, 
+    "helping-hands": {
+        "company": "Helping Hands - English Connect",
+        "timeperiod": "September 2018 - August 2019",
+        "position": "Program Manager",
+        "location": "Seoul, South Korea",
+        "description": [
+            "Oversaw teacher training and implementation for English learning program with 17 centers throughout Seoul and 80+ teachers",
+            "Directed creation of cloud software to replace paper records and save 160+ hours of work by teachers weekly"
+        ],
+        "image": "english-connect"
+    }
+}

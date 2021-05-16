@@ -52,7 +52,7 @@ src: local('Raanan Bold'), url('Raanan-Bold.woff') format('woff');
 }
 
 .nav-box {
-  font-family: 'Raanan regular';
+  font-family: "stix-two-math",serif; 
   width: 138px;
   height: 138px;
   display: flex;
@@ -80,10 +80,14 @@ src: local('Raanan Bold'), url('Raanan-Bold.woff') format('woff');
   background-color: #A8B5B9;
 }
 
+.background-grey {
+  background-color: #272D35;
+}
+
 .background {
   background-color: #272D35;
   width: 100vw;
-  height: 110vh;
+  min-height: 110vh;
 }
 
 .yellow-theme {
@@ -157,10 +161,21 @@ src: local('Raanan Bold'), url('Raanan-Bold.woff') format('woff');
   }
 }
 
+.yellow-border {
+  border-color: #E4BA41;
+}
+
 .yellow-line {
     width: 100%;
     height: 5px;
     background-color: #E4BA41;
+}
+
+.yellow-line.small {
+  width:auto;
+  flex-grow: 1;
+  background-color: #E4BA41;
+  height: 2px;
 }
 
 .work-history-line {
@@ -238,3 +253,18 @@ li::before {
   animation-direction: alternate;
 }
 
+.project-card {
+  box-shadow: 20px 20px 20px #010102;
+}
+
+.contact-form input.failed-attempt:invalid {
+  border-color: red;
+}
+
+.contact-form textarea.failed-attempt:invalid {
+  border-color: red;
+}
+
+.about-page img{
+  height: 100%
+}

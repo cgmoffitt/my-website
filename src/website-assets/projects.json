@@ -1,0 +1,57 @@
+{
+    "matchmakerByu": {
+        "image": "matchmaker-byu",
+        "name": "Matchmaker BYU",
+        "skills": [
+            "react",
+            "node",
+            "typescript",
+            "python"
+        ],
+        "description": "College dating website attracting over 7,000 users where college students can find their “most compatible” match. Local companies purchased ad space to give users “date” coupons"
+    },
+    "aiSpy": {
+        "image": "ai-spy",
+        "name": "AISPY",
+        "skills": [
+            "java",
+            "android"
+        ],
+        "description": "Mobile app with AI capable of playing “i-spy” with user on any image input."
+    },
+    "dtiModel": {
+        "image": "dti-model",
+        "name": "DTI Super Resolution Model",
+        "skills": [
+            "python",
+            "tensorflow"
+        ],
+        "description": "Partnered with Stanford’s Oncology and Brain Science Lab to lead technical research team in building ML model to transform low res DTI images into their high res equivalent utilizing SR-GAN architecture."
+    },
+    "setGame": {
+        "image": "set-game",
+        "name": "Set Card Game",
+        "skills": [
+            "swift",
+            "swiftui"
+        ],
+        "description": "iOS mobile implementation of the popular game, 'Set'"
+    },
+    "wallScraper": {
+        "image": "wall-scraper",
+        "name": "Reddit Wall-scraper",
+        "skills": [
+            "python"
+        ],
+        "description": "Script to automatically scrape and download the most popular wallpapers on reddit"
+    },
+    "influencerMarketplace": {
+        "image": "influencer-marketplace",
+        "name": "Influencer Marketplace",
+        "skills": [
+            "swift",
+            "swiftui"
+        ],
+        "description": "iOS Prototopye mobile app marketplace for influencers to connect with their followers through giveaways and prizes"
+    }
+}
