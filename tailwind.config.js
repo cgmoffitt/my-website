@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'matchmaker-byu': "url('../website-assets/matchmakerbyu/matchmaker-byu.png')",
+        'matchmaker-byu': "url('../website-assets/matchmakerbyu/matchmaker-byu_auto_x2.png')",
         'ai-spy': "url('../website-assets/aispy/home-screen.png')",
         'dti-model': "url('../website-assets/dti-super-res/dti-image.png')",
         'set-game': "url('../website-assets/set/set-start.png')",

@@ -10,7 +10,7 @@ export default function Experience() {
 
     return (
         <Layout>
-            <div className="ml-20">
+            <div className="mt-5 md:mt-0 ml-5 md:ml-20">
                 <Title title="Experience" />
                 <div className="mt-10 pb-24">
                     {Object.keys(experiences).map(experience => 

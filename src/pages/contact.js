@@ -29,7 +29,7 @@ export default function Contact() {
         window.Email.send({
             Host : "smtp.elasticemail.com",
             Username : "chris.moffitt16@gmail.com",
-            Password : "",
+            Password : "602C08AB6B24B9E2B3D595C2998E02E3CAC7",
             To : 'cmoffitt@stanford.edu',
             From : 'chris.moffitt16@gmail.com',
             Subject : `MESSAGE FROM WEBSITE. Name: ${name}, Email: ${email}`,
@@ -46,17 +46,17 @@ export default function Contact() {
 
     return (
         <Layout>
-            <div className="ml-20">
+            <div className="mt-5 md:mt-0 ml-5 md:ml-20">
                 <Title title="Contact" />
-                <div className="mr-20 mt-10 flex">
-                    <div className="flex flex-col w-1/2 stix-reg font-bold yellow-theme text-8xl">
-                        <p>Let's</p>
-                        <p>Build</p>
-                        <p>Something</p>
-                        <p>Amazing</p>
+                <div className="md:mr-20 mt-5 md:mt-10 flex flex-col md:flex-row">
+                    <div className="flex flex-wrap flex-row md:flex-col w-10/12 md:w-1/2 stix-reg font-bold yellow-theme text-3xl md:text-8xl">
+                        <p>Let's&nbsp;</p>
+                        <p>Build&nbsp;</p>
+                        <p>Something&nbsp;</p>
+                        <p>Amazing&nbsp;</p>
                         <p>Together.</p>
                     </div>
-                    <div className="flex flex-col w-1/2">
+                    <div className="mt-5 md:mt-0 flex flex-col w-11/12 md:w-1/2">
                         <div className="flex items-center justify-between mb-2">
                             <span className="stix-reg text-white ">CONTACT FORM</span>
                             <div className="yellow-line small ml-2"></div>

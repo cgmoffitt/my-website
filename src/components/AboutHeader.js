@@ -17,8 +17,8 @@ export default function AboutHeader(){
     }, [])
 
     return (
-        <div className="absolute top-1/3 right-56">
-            <h1 className="stix-reg text-white text-8xl">Chris Moffitt</h1>
+        <div className="absolute top-40 left-5 md:top-1/3 md:right-56">
+            <h1 className="stix-reg text-white text-5xl md:text-8xl">Chris Moffitt</h1>
             <div>
                 <h2 className="stix-reg yellow-theme text-4xl fade-in-out">: Software Engineer</h2>
                 <h2 className="stix-reg yellow-theme text-4xl fade-in-out">: Product Manager</h2> 

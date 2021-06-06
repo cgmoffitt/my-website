@@ -53,8 +53,8 @@ src: local('Raanan Bold'), url('Raanan-Bold.woff') format('woff');
 
 .nav-box {
   font-family: "stix-two-math",serif; 
-  width: 138px;
-  height: 138px;
+  /* width: 138px;
+  height: 138px; */
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -193,17 +193,17 @@ src: local('Raanan Bold'), url('Raanan-Bold.woff') format('woff');
 }
 
 .thumbnail-image {
-  width: 100px;
-  height: 100px;
+  /* width: 100px;
+  height: 100px; */
   background-color: white;
   border-radius: 50%;
-  margin-left: 50px
+  /* margin-left: 50px */
 }
 
 .experience-text {
   font-family: "stix-two-math",serif; 
   color: white;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 li {
@@ -218,8 +218,8 @@ li {
   border-color:  #E4BA41;
   border-width: 1px;
   padding: 3px;
-  margin-left: 14rem;
-  width: 60rem;
+  /* margin-left: 14rem; */
+  /* width: 60rem; */
   color: white;
   font-family: "stix-two-math",serif; 
   /* max-height: 0px; */
@@ -251,6 +251,20 @@ li::before {
   height: 250px;
   transition: height 0.5s linear;
   animation-direction: alternate;
+}
+
+@media (max-width: 800px){
+  .animate {
+    transition: height 0.5s linear;
+    height: 175px;
+    animation-direction: alternate;
+  }
+  
+  .animate.grow {
+    height: 350px;
+    transition: height 0.5s linear;
+    animation-direction: alternate;
+  }
 }
 
 .project-card {

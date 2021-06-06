@@ -35,7 +35,7 @@
     "stanford-ta": {
         "company": "Stanford Computer Science Deptartment",
         "timeperiod": "September 2020 - April 2021",
-        "position": "Computer Science TA and Section Leader for CS 106 Series",
+        "position": "TA and Section Leader",
         "location": "Palo Alto, CA",
         "description": [
             "Teach weekly sections of 12 Stanford undergrad/graduate students on CS data structures and algorithms (taught in Python and C++)"

@@ -33,14 +33,14 @@ export default function WorkHistoryItem({experience}) {
             </div>
             <div className="h-28 flex flex-row items-center">
                 <div className="work-history-bullet"></div>
-                <div className={`thumbnail-image bg-${image} bg-center bg-contain bg-no-repeat`}></div>
-                <div className="experience-text flex-col justify-center">
-                    <div className="text-xl font-light">{timeperiod}</div>
-                    <div className="text-2xl font-light">{company} - {location}</div>
-                    <div className="text-3xl font-black">{position}</div>
+                <div className={`thumbnail-image ml-4 md:ml-10 w-16 h-16 md:w-20 md:h-20 bg-${image} bg-center bg-contain bg-no-repeat`}></div>
+                <div className="experience-text w-9/12 ml-5 md:ml-10 flex-col justify-center">
+                    <div className="text-md md:text-xl font-light  ">{timeperiod}</div>
+                    <div className="text-lg md:text-2xl font-light ">{company} - {location}</div>
+                    <div className="text-xl md:text-3xl font-black ">{position}</div>
                 </div>
             </div>
-            <div className={`experience-description ${isHovered ? "hover" : ""}`}>
+            <div className={`experience-description mt-5 ml-4 md:ml-48 w-11/12 md:w-1/2  ${isHovered ? "hover" : ""}`}>
                 <ul>
                     {description.map((item, index) => 
                         <li key={index} className="text-l font-light">

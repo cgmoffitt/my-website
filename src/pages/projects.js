@@ -92,7 +92,7 @@ export default function Projects() {
     console.log('Projects', projects)
     return (
         <Layout>
-            <div className="ml-20">
+            <div className="mt-5 md:mt-0 ml-5 md:ml-20">
                 <Title title="Projects" />
                 <div className="mr-20 flex flex-wrap flex-row justify-center space-between">
                     {Object.keys(projects).map(projectName => <Project project={projects[projectName]}/>)}
