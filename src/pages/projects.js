@@ -67,7 +67,7 @@ const Project = ({project}) => {
                         {skills.map((skill, index) => <Skill key={index} skill={skillsLibrary[skill]}/>)}
                     </div>
                     <p className="stix-reg text-sm my-2">{description}</p>
-                    <p className="stix-reg text-xs justify-self-end mt-auto mb-3">Read more ></p>
+                    {/* <p className="stix-reg text-xs justify-self-end mt-auto mb-3">Read more ></p> */}
                 </div>
             </div>
 
