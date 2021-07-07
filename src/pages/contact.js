@@ -63,7 +63,7 @@ export default function Contact() {
                         </div>
                         <form onSubmit={handleSubmit} className="contact-form">
                             <input
-                                className={`border border-white h-10 px-3 w-full background-grey text-white stix-reg mb-2 ${submitAttempted ? 'failed-attempt': ''}`}
+                                className={`border border-white px-3 w-full background-grey text-white stix-reg mb-2 ${submitAttempted ? 'failed-attempt': ''}`}
                                 placeholder="Name"
                                 type="text"
                                 value={name}
@@ -71,7 +71,7 @@ export default function Contact() {
                                 required
                             />
                             <input
-                                className={`border border-white h-10 px-3 w-full background-grey text-white stix-reg mb-2 ${submitAttempted ? 'failed-attempt': ''}`}
+                                className={`border border-white px-3 w-full background-grey text-white stix-reg mb-2 ${submitAttempted ? 'failed-attempt': ''}`}
                                 placeholder="Email"
                                 type="text"
                                 value={email}

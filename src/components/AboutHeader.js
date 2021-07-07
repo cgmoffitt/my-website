@@ -24,7 +24,7 @@ export default function AboutHeader(){
                 <h2 className="stix-reg yellow-theme text-4xl fade-in-out">: Product Manager</h2> 
                 <h2 className="stix-reg yellow-theme text-4xl fade-in-out">: Chief of Staff</h2>
             </div>
-            <h2 className="stix-reg grey-theme text-3xl my-12">Who likes to turn creative ideas into reality</h2>
+            <h2 className="stix-reg grey-theme text-3xl my-12">Turning creative ideas into reality</h2>
         </div>
         
     )

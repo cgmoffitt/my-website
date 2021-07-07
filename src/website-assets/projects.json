@@ -1,4 +1,37 @@
 {
+    "matchmakerProvo": {
+        "image": "matchmaker-byu",
+        "name": "Matchmaker Provo",
+        "skills": [
+            "react",
+            "node",
+            "typescript",
+            "python"
+        ],
+        "description": "7,000+ college students used this new and improved version of Matchmaker to receive not one, but 4 matches.",
+        "link": {
+            "text": "See Matchmaker Provo in the news!",
+            "url": "https://universe.byu.edu/2021/02/12/matchmaker-provo-provides-unique-valentines-dating-experience/"
+        },
+        "screenshots": [
+            "matchmaker-provo/matchmaker-provo-landing.png",
+            "matchmaker-provo/description.jpeg",
+            "matchmaker-provo/sample-question-web.jpeg",
+            "matchmaker-provo/sample-question-mobile.jpeg",
+            "matchmaker-provo/insert-social-media.jpeg",
+            "matchmaker-provo/final-question.jpeg",
+            "matchmaker-provo/finished-survey.png",
+            "matchmaker-provo/four-matches.png",
+            "matchmaker-provo/email-brick-oven-coupon.jpeg",
+            "matchmaker-provo/email-sub-zero-coupon.jpeg"
+        ],
+        "features": [
+            "CAS Authentication",
+            "Stable Marraige Algorithm Implementation",
+            "Multiple choice, multi-select, slider, and free response questions",
+            "Customized mass emails"
+        ]
+    },
     "matchmakerByu": {
         "image": "matchmaker-byu",
         "name": "Matchmaker BYU",
@@ -8,7 +41,27 @@
             "typescript",
             "python"
         ],
-        "description": "College dating website attracting over 7,000 users where college students can find their “most compatible” match. Local companies purchased ad space to give users “date” coupons"
+        "description": "College dating website attracting over 4,000 users where college students find their “most compatible” match.",
+        "link": {
+            "text": "See Utalk BYU's episode on Matchmaker BYU",
+            "url": "https://www.himalaya.com/episode/s3e6-matchmaker-121435059"
+        },
+        "screenshots": [
+            "matchmakerbyu/matchmaker-byu_auto_x2.png",
+            "matchmakerbyu/welcome.png",
+            "matchmakerbyu/description.png",
+            "matchmakerbyu/double-slider.png",
+            "matchmakerbyu/drop-down.png",
+            "matchmakerbyu/free-response.png",
+            "matchmakerbyu/slider.png",
+            "matchmakerbyu/select-important.png"
+        ],
+        "features": [
+            "CAS Authentication",
+            "Stable Marraige Algorithm Implementation",
+            "Multiple choice, multi-select, slider, and free response questions",
+            "Customized mass emails"
+        ]
     },
     "aiSpy": {
         "image": "ai-spy",
@@ -17,7 +70,28 @@
             "java",
             "android"
         ],
-        "description": "Mobile app with AI capable of playing “i-spy” with user on any image input."
+        "description": "Mobile app with AI capable of playing “i-spy” with user on any image input",
+        "link": {
+            "text": "See Github",
+            "url": "https://github.com/StanfordHCI/family-centered/tree/image-processing"
+        },
+        "screenshots": [
+            "aispy/home-screen.png",
+            "aispy/system-architecture.png",
+            "aispy/game-play-start.png",
+            "aispy/game-play.png",
+            "aispy/color-clue.png",
+            "aispy/location-clue.png",
+            "aispy/general-knowledge-clue.png",
+            "aispy/board.png"
+        ],
+        "features": [
+            "Firebase Visual Recognition",
+            "ML Color Classifying",
+            "Concept Net Knowledge Base Scraper",
+            "Google Voice Recognition",
+            "NLP ChatBot"
+        ]
     },
     "dtiModel": {
         "image": "dti-model",
@@ -26,24 +100,105 @@
             "python",
             "tensorflow"
         ],
-        "description": "Partnered with Stanford’s Oncology and Brain Science Lab to lead technical research team in building ML model to transform low res DTI images into their high res equivalent utilizing SR-GAN architecture."
-    },
-    "setGame": {
-        "image": "set-game",
-        "name": "Set Card Game",
-        "skills": [
-            "swift",
-            "swiftui"
+        "description": "Partnered with Stanford’s Oncology and Brain Science Lab to lead technical team in building ML model to transform low res DTI images into their high res equivalent utilizing SR-GAN architecture.",
+        "link": {
+            "text": "See Team Presentation",
+            "url": "https://www.youtube.com/watch?v=PIIcuFkWqUc"
+        },
+        "screenshots": [
+            "dti-super-res/dti-image.png"
         ],
-        "description": "iOS mobile implementation of the popular game, 'Set'"
+        "features": [
+            "SR-GAN Architecture",
+            "Automatically generated low resolution images using Gaussian Noise"
+        ]
+    },
+    "personalWebsite": {
+        "image": "dti-model",
+        "name": "Personal Website/Portfolio",
+        "skills": [
+            "react"
+        ],
+        "description": "A responsive portfolio website built in React by me",
+        "link": {
+            "text": "See Github",
+            "url": "https://github.com/cgmoffitt/my-website"
+        },
+        "screenshots": [
+            "personal-website/about.png",
+            "personal-website/experience.png",
+            "personal-website/projects.png",
+            "personal-website/contact.png"
+        ],
+        "features": [
+            "Responsive Design",
+            "Email Contact Form",
+            "Interactive Animations"
+        ]
+    },
+    "colorClassifier": {
+        "image": "dti-model",
+        "name": "Color Classifier",
+        "skills": [
+            "python",
+            "tensorflow"
+        ],
+        "description": "Machine learning multi-classifier model that is able to classify any rgb color value to the common string name that a human would label it as.",
+        "link": {
+            "text": "See Github",
+            "url": "https://github.com/cgmoffitt/color-classifier"
+        },
+        "screenshots": [
+            "color-classifier/model-accuracy.png",
+            "color-classifier/model-loss.png"
+        ],
+        "features": [
+            "Multi Classification Model"
+        ]
+    },
+    "conceptNetScraper": {
+        "image": "dti-model",
+        "name": "Knowledge Map Builder",
+        "skills": [
+            "java",
+            "android"
+        ],
+        "description": "Android application that scrapes Concept Net in order to build knowledge maps for requested words and phrases. Plays with concurrency to make several query requests in parallel.",
+        "link": {
+            "text": "See Github",
+            "url": "https://github.com/cgmoffitt/multi-threaded-concept-net-scraper"
+        },
+        "screenshots": [
+            "concept-net/sample.png"
+        ],
+        "features": [
+            "Concept Net Knowledge Base Scraper",
+            "Simple UI",
+            "Parallel Queries"
+        ]
     },
     "wallScraper": {
         "image": "wall-scraper",
-        "name": "Reddit Wall-scraper",
+        "name": "Reddit Wallscraper",
         "skills": [
             "python"
         ],
-        "description": "Script to automatically scrape and download the most popular wallpapers on reddit"
+        "description": "Script to automatically scrape and download the most popular wallpapers on reddit",
+        "link": {
+            "text": "See Github",
+            "url": "https://github.com/cgmoffitt/reddit-wallscraper"
+        },
+        "screenshots": [
+            "Wallscraper/EastEndofRundle67204480 copy.png",
+            "Wallscraper/DarkSun25601600.png",
+            "Wallscraper/LakeTahoeNevadaPhotocredittoIGbloveimages.png",
+            "Wallscraper/Seeyoulater copy.png",
+            "Wallscraper/waitingforashootingstarbytaehoonkang.png"
+        ],
+        "features": [
+            "Command Line Utility",
+            "Cronjob Configuration"
+        ]
     },
     "influencerMarketplace": {
         "image": "influencer-marketplace",
@@ -52,6 +207,25 @@
             "swift",
             "swiftui"
         ],
-        "description": "iOS Prototopye mobile app marketplace for influencers to connect with their followers through giveaways and prizes"
+        "description": "iOS Prototopye mobile app marketplace for influencers to connect with their followers through giveaways and prizes",
+        "link": {
+            "text": "See Github",
+            "url": "https://github.com/cgmoffitt/influencer-marketplace-iOS-app"
+        },
+        "screenshots": [
+            "influencer-marketplace/my-follows copy.png",
+            "influencer-marketplace/influencer-page copy.png",
+            "influencer-marketplace/search-bar copy.png",
+            "influencer-marketplace/my-prizes.png",
+            "influencer-marketplace/confirm-purchase copy.png",
+            "influencer-marketplace/successful-purchase copy.png"
+        ],
+        "features": [
+            "Search Bar",
+            "Tab Navigation",
+            "User Defaults",
+            "Drag Gesture Animation",
+            "Sound Effects"
+        ]
     }
 }

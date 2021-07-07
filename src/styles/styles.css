@@ -293,3 +293,17 @@ li::before {
     object-fit: cover;
     }
 }
+
+/* .carousel-root {
+  height: 100% !important
+}
+
+.carousel-slider {
+  height:100% !important
+} */
+
+.carousel .slide img {
+  max-height: 350px;  
+  width: auto;
+  margin-top: 5px;
+}

@@ -5,8 +5,7 @@
         "position": "Software Engineering Intern",
         "location": "Sandy, Utah",
         "description": [
-            "Own project to build iOS and Android mobile app from scratch that provides a dynamic way to view and interact with company-wide updates",
-            "Automated the creation of a daily pdf saving 6 hours of manyal work weekly (the pdf displays company-wide updates with embedded videos, images, gifs, and confluence posts) "
+            "Own project to build iOS and Android mobile app from scratch that provides a dynamic way to view and interact with company-wide updates"
         ],
         "image": "safexai"
     },
@@ -45,7 +44,7 @@
     "stanford-curis": {
         "company": "Stanford Computer Science Deptartment",
         "timeperiod": "June 2020 - August 2020",
-        "position": "Research Intern/Software Developer",
+        "position": "Research Intern",
         "location": "Palo Alto, CA",
         "description": [
             "Led dev team to fully implement “AI Spy”, an android app with an AI persona capable of playing “I-spy” with user on any image input",
@@ -54,7 +53,7 @@
         "image": "stanford-logo"
     }, 
     "helping-hands": {
-        "company": "Helping Hands - English Connect",
+        "company": "English Connect",
         "timeperiod": "September 2018 - August 2019",
         "position": "Program Manager",
         "location": "Seoul, South Korea",

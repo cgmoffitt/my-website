@@ -53,12 +53,14 @@ export default function WorkHistoryItem({experience}) {
             <div className="h-28 flex flex-row items-center">
                 <div className="work-history-bullet"></div>
                 <div className={`thumbnail-image ml-4 md:ml-10 w-16 h-16 md:w-20 md:h-20 bg-${image} bg-center bg-contain bg-no-repeat`}></div>
-                <div className="experience-text w-9/12 ml-5 md:ml-10 flex-col justify-center">
+                <div className="experience-text w-9/12 ml-5 md:ml-10 flex-col justify-center"
+                    onClick={() => setExpanded(!expanded)}
+                >
                     <div className="text-sm md:text-xl font-light  ">{timeperiod}</div>
                     <div className="text-lg md:text-2xl font-light ">{company} - {location}</div>
                     <div className="text-xl md:text-3xl font-black ">{position}</div>
                     <button 
-                        className="text-xs md:text-xl font-light"
+                        className="text-xs md:text-xl font-light md:hidden"
                         onClick={() => setExpanded(!expanded)}
                     >
                         {expanded ? "Read less" : "Read more"}
